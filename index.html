@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Youtube Playlist </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+
+
+<body>
+
+
+    <header> 
+     <div class="header-icon">
+
+       
+
+
+        <div id="logo">
+
+            <a href="#" id="menu-logo"> <i class="fa-solid fa-bars"></i> </a>
+
+            <a href="index.html"> <i id="ytb-logo" class="fa-brands fa-youtube"> <div id="fill"></div></i> </a>
+            <p id="logo-text"> YouTube </p>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search" id="search-input">
+                <i id="mag-glass" class="fa-solid fa-magnifying-glass"></i>
+
+                <div id="mic">
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+        </div>
+       
+       
+        <div class="top-right-icon">
+            <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-brands fa-mailchimp"></i>
+        </div>
+     </div>
+    </header>
+
+    <main id="main1">
+        <h1 id="heading">My Play List for Web Development Course</h1>
+
+        
+        <div class="main-container">
+
+            <div class="card"> 
+                <a href="#" >HTML/CSS</a>
+               </div>
+
+               <div class="card" id="course-javascript"> 
+                <a    >JavaScript</a>
+               </div>
+
+               <div class="card"> 
+                <a href="#" >JavaScript Project</a>
+               </div>
+
+               <div class="card"> 
+                <a href="#" > Git/Github </a>
+               </div>
+
+               <div class="card" id="course-typescript"> 
+                <a   > TypeScript</a>
+               </div>
+
+               <div class="card"> 
+                <a href="#" >Tailwaind</a>
+               </div>
+
+               <div class="card"> 
+                <a href="#" >React</a>
+               </div>
+
+               <div class="card"> 
+                <a href="#" >Redux</a>
+               </div>
+
+               <div class="card"> 
+                <a href="#" >Node.js</a>
+               </div>
+
+               <div class="card"> 
+                <a href="#" >Relational DB, SQL</a>
+               </div>
+
+               <div class="card"> 
+                <a href="#" >AWS</a>
+               </div>
+
+               
+               
+        </div>
+        <div class="music">
+            <iframe  id="song" width="560" height="315" src="https://www.youtube.com/embed/WPni755-Krg?si=G55vzsQBmnKdOq2f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+
+
+    </main>
+
+
+    <!-- Learn Js++++++++++++++++++++++++++++++ -->
+
+
+
+    <main class="learn-js teacher-section hide"> 
+        <h1 id="heading">Learn JavaScript</h1>
+    
+            
+            <div class="main-container">
+    
+                <div class="channel-card" id="code-yogi" onclick= "window.location.href = 'https://codeyogi.io/tutorial'" > 
+    
+                    <h1> Code Yogi  </h1>
+                   </div>
+    
+                   <div class="channel-card" id="anurag"   > 
+                    <h1>    Anurag Sir </h1>
+                   </div>
+    
+                   <div class="channel-card" id="hitesh" onclick= "window.location.href = 'hiteshJs.html'"> 
+                    <h1>  Hitesh Sir </h1>
+                   </div>
+    
+                   <div class="channel-card" id="shradha" onclick= "window.location.href = '#'"> 
+                    <h1>   Shradha Mam </h1>
+                   </div>
+    
+                    
+            </div>
+            
+    
+    </main>
+
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+
+    <!-- Learn TypeScript ++++++++++++++++++++++++++++++ --> 
+
+
+    <main class="learn-ts teacher-section hide"> 
+        <h1 id="heading">Learn TypeScript</h1>
+    
+            
+            <div class="main-container">
+    
+                <div class="channel-card" id="thapa-ts" onclick= "window.location.href = 'thapaTs.html'" > 
+    
+                    <h1> Technival Thapa  </h1>
+                   </div>
+    
+                    
+    
+                    
+            </div>
+            
+    
+    </main>
+
+
+     <!-- Learn JavaScript By Anurag Sir+++++++++++++++++++ -->
+
+            
+     <main class="anurag-sir hide" >
+         
+
+        <div class="video-box  bg-thumbnail " id="1"  onclick="loadIframe_1(this)">
+            
+             
+            <p id="video-title">Ep-00 | Trailer</p>
+        </div>
+
+        <div class="video-box bg-thumbnail " id="2"  onclick="loadIframe_2(this)">
+            
+            <p id="video-title"> Ep.01 | Story of JavaScript | JavaScript History 
+            </p>
+        </div>
+
+        <div class="video-box bg-thumbnail " id="3"  onclick="loadIframe_3(this)">
+            
+
+            <p id="video-title">Ep.02 | Introduction to JavaScript </p>
+        </div>
+       
+
+        <div class="video-box bg-thumbnail " id="4"  onclick="loadIframe_4(this)">
+            
+            <p id="video-title">Ep.03 | Data Types in JavaScript | Primitive Data Types Explained   
+            </p>
+        </div>
+
+        
+
+        <div class="video-box bg-thumbnail " id="5"  onclick="loadIframe_5(this)">
+             
+
+
+            <p id="video-title">Ep.04 | JavaScript Variables Explained in Depth | let, const, var  </p>
+
+        </div>
+
+        <!-- ............................. -->
+
+        <div class="video-box bg-thumbnail " id="6"  onclick="loadIframe_6(this)">
+            
+ 
+
+
+            <p id="video-title">Ep.05 | Watch Your Code Running Line by Line in Dev Tools 
+            </p>
+
+        </div>
+
+          <!-- ............................. -->
+
+          <div class="video-box bg-thumbnail " id="7"  onclick="loadIframe_7(this)">
+            
+ 
+
+            <p id="video-title">Ep.06 | WDialog Boxes in JavaScript | Alert, Confirm, & Prompt </p>
+
+        </div>
+
+
+        
+        <!-- .............................. -->
+
+        <div class="video-box bg-thumbnail " id="8" onclick="loadIframe_8(this)">
+            
+ 
+
+
+            <p id="video-title">Ep.07 | Template Literals | String Methods & Properties  </p>
+
+        </div>
+
+         <!-- ............................. -->
+
+         <div class="video-box bg-thumbnail " id="9" onclick="loadIframe_9(this)">
+            
+ 
+
+
+            <p id="video-title">Ep.08 | Math Object in JavaScript  </p>
+
+        </div>
+
+        <!-- ............................. -->
+
+        <div class="video-box bg-thumbnail " id="10" onclick="loadIframe_10(this)">
+            
+  
+
+
+            <p id="video-title">Ep.09 | Most Used Concept in JavaScript | Truthy and Falsy Values </p>
+
+        </div>
+
+
+<!-- ............................. -->
+
+
+        <div class="video-box bg-thumbnail " id="11" onclick="loadIframe_11(this)">
+
+            
+
+            <p id="video-title">Ep.10 | Comparison Operators in JavaScript Explained in Hindi </p>
+
+        </div>
+
+
+        <!-- ............................. -->
+
+
+        <div class="video-box bg-thumbnail " onclick="loadIframe_12(this)">
+
+            
+
+            <p id="video-title">Ep.11 | Logical Operators in JavaScript | And, Or, Not, Operators </p>
+
+        </div>
+
+         <!-- ............................. -->
+
+
+         <div class="video-box bg-thumbnail " onclick="loadIframe_13(this)">
+
+            
+
+            <p id="video-title">Ep.12 | Decision Making in JavaScript Using IF Statement </p>
+
+        </div>
+
+
+         <!-- ............................. -->
+
+
+         <div class="video-box bg-thumbnail " onclick="loadIframe_14(this)">
+
+            
+
+            <p id="video-title">Ep.13 | Optimize Decision Making Using Else If and Else</p>
+
+        </div>
+
+
+         <!-- ............................. -->
+
+
+         <div class="video-box bg-thumbnail " onclick="loadIframe_15(this)">
+
+            
+
+            <p id="video-title">Ep.14 | Nested IF ELSE Statement in JavaScript</p>
+
+        </div>
+
+        <!-- ............................. -->
+
+
+        <div class="video-box bg-thumbnail " onclick="loadIframe_16(this)">
+
+            
+
+            <p id="video-title">Ep.15 | Switch Statement in JavaScript | Switch Case </p>
+
+        </div>
+
+
+
+
+
+        <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+        
+
+<!-- ............................. -->
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_17(this)">
+
+    
+
+    <p id="video-title">Ep.16 | Ternary Operator Explained </p>
+
+</div>
+
+<!-- ............................. -->
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_18(this)">
+
+    
+    <p id="video-title">Ep.17 | How to See Variable Address in Dev Tools? | Memory Location  </p>
+
+</div>
+
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_19(this)">
+
+    
+    <p id="video-title">Ep.18 | Objects in JavaScript Explained in Depth  </p>
+
+</div>
+
+<!-- ............................. -->
+
+
+<div class="video-box bg-thumbnail " id="box-20" onclick="loadIframe_20(this)">
+
+    
+    <p id="video-title">Ep.19 | Object.freeze( ) vs Object.seal( ) in JavaScript  </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " id="box-21" onclick="loadIframe_21(this)">
+
+    
+    <p id="video-title">Ep.20 | Arrays Explained in Depth  </p>
+
+</div>
+
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_22(this)">
+
+    
+    <p id="video-title">Ep.21 | Most Common Array Methods in JavaScript  </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_23(this)">
+
+    
+    <p id="video-title">Ep.22 | Multidimensional Arrays are Easier Than You Might Think   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_24(this)">
+
+    
+
+    <p id="video-title">Ep.23 | Right Way to Copy Objects and Arrays | Deep Vs Shallow Copy   </p>
+
+</div>
+
+<!-- ............................. -->
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_25(this)">
+
+
+    <p id="video-title">Ep.24 | Combined Assignment Operators in JS | Increment and Decrement Operator   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_26(this)">
+
+    
+    <p id="video-title">Ep.25 |  While Loop in JavaScript | Explained in Depth  </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_27(this)">
+
+    
+    <p id="video-title">Ep.26 |  For Loop in JavaScript  </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_28(this)">
+
+    
+    <p id="video-title">Ep.27 | Do While Loop in JavaScript   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_29(this)">
+
+    
+
+    <p id="video-title">Ep.28 | Introduction to Functions</p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_30(this)">
+
+    
+    <p id="video-title">Ep.29 |  Return Keyword in JavaScript Explained in Depth  </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_31(this)">
+
+    
+    <p id="video-title">Ep.30 | Execution Context in JavaScript Explained in Depth    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_32(this)">
+
+    
+    <p id="video-title">Ep.31 |  Call Stack in JavaScript   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_33(this)">
+
+     
+
+    <p id="video-title">Ep.32 |  What is Hoisting? | Most Asked JS Interview Question  </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_34(this)">
+
+     
+
+    <p id="video-title">Ep.33 |  Global Scope vs Local Scope in Javascript  </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_35(this)">
+
+     
+    <p id="video-title">Ep.34 | Lexical and Block Scope Explained in Depth</p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_36(this)">
+
+     
+
+    <p id="video-title">Ep.35 |  Higher Order Functions and Callbacks in JavaScript   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_37(this)">
+
+     
+
+    <p id="video-title">Ep.36 |  setTimeout and setInterval in JavaScript     </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_38(this)">
+
+     
+
+    <p id="video-title">Ep.37 |  Event Loop and Callback Queue in JavaScript  </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_39(this)">
+
+    
+
+    <p id="video-title">Ep.38 | Returning Functions with Closures in JavaScript  </p>
+
+</div>
+
+<!-- ............................. -->
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_40(this)">
+
+    
+
+    <p id="video-title">Ep.39 | Difference between Methods and Functions in JavaScript  </p>
+
+</div>
+
+<!-- ............................. -->
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_41(this)">
+
+     
+
+    <p id="video-title">Ep.40 |  Arrow Functions in JavaScript | ES6  </p>
+
+</div>
+
+<!-- ............................ -->
+
+ 
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_42(this)">
+
+     
+
+    <p id="video-title">Ep.41 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_43(this)">
+
+             
+
+    <p id="video-title">Ep.42 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_44(this)">
+
+     
+
+    <p id="video-title">Ep.43 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_45(this)">
+
+     
+
+    <p id="video-title">Ep.44 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_46(this)">
+
+     
+
+    <p id="video-title">Ep.45 |   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_47(this)">
+
+     
+
+    <p id="video-title">Ep.46 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_48(this)">
+
+     
+
+    <p id="video-title">Ep.47 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_49(this)">
+
+     
+
+    <p id="video-title">Ep.48 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_50(this)">
+
+     
+
+    <p id="video-title">Ep.49 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_51(this)">
+
+     
+
+    <p id="video-title">Ep.50 |    </p>
+
+</div>
+
+ 
+
+
+<!-- ............................. -->
+
+
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_52(this)">
+
+     
+
+    <p id="video-title">Ep.51 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_53(this)">
+
+     
+
+    <p id="video-title">Ep.52 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_54(this)">
+
+     
+
+    <p id="video-title">Ep.53 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_55(this)">
+
+     
+
+    <p id="video-title">Ep.54 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_56(this)">
+
+     
+
+    <p id="video-title">Ep.55 |   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_57(this)">
+
+     
+
+    <p id="video-title">Ep.56 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_58(this)">
+
+     
+
+    <p id="video-title">Ep.57 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_59(this)">
+
+     
+
+    <p id="video-title">Ep.58 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_60(this)">
+
+     
+
+    <p id="video-title">Ep.59 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_61(this)">
+
+     
+
+    <p id="video-title">Ep.60 |    </p>
+
+</div>
+
+
+<!-- ............................ -->
+
+ 
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_62(this)">
+
+     
+
+    <p id="video-title">Ep.61 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_63(this)">
+
+     
+
+    <p id="video-title">Ep.62 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_64(this)">
+
+     
+
+    <p id="video-title">Ep.63 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_65(this)">
+
+     
+
+    <p id="video-title">Ep.64 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_66(this)">
+
+     
+
+    <p id="video-title">Ep.65 |   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_67(this)">
+
+     
+
+    <p id="video-title">Ep.66 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_68(this)">
+
+     
+
+    <p id="video-title">Ep.67 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_69(this)">
+
+     
+
+    <p id="video-title">Ep.68 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_70(this)">
+
+     
+
+    <p id="video-title">Ep.69 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_71(this)">
+
+     
+
+    <p id="video-title">Ep.70 |    </p>
+
+</div>
+
+
+<!-- ............................ -->
+
+ 
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_72(this)">
+
+     
+
+    <p id="video-title">Ep.71 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_73(this)">
+
+     
+
+    <p id="video-title">Ep.72 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_74(this)">
+
+     
+
+    <p id="video-title">Ep.73 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_75(this)">
+
+     
+
+    <p id="video-title">Ep.74 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_76(this)">
+
+     
+
+    <p id="video-title">Ep.75 |   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_77(this)">
+
+     
+
+    <p id="video-title">Ep.77 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_78(this)">
+
+     
+
+    <p id="video-title">Ep.77 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_79(this)">
+
+     
+
+    <p id="video-title">Ep.78 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_80(this)">
+
+     
+
+    <p id="video-title">Ep.79 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_81(this)">
+
+     
+
+    <p id="video-title">Ep.80 |    </p>
+
+</div>
+
+
+<!-- ............................ -->
+
+ 
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_82(this)">
+
+     
+
+    <p id="video-title">Ep.81 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_83(this)">
+
+     
+
+    <p id="video-title">Ep.82 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_84(this)">
+
+     
+
+    <p id="video-title">Ep.83 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_85(this)">
+
+     
+
+    <p id="video-title">Ep.84 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_86(this)">
+
+     
+
+    <p id="video-title">Ep.85 |   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_87(this)">
+
+     
+
+    <p id="video-title">Ep.86 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_88(this)">
+
+     
+
+    <p id="video-title">Ep.87 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_89(this)">
+
+     
+
+    <p id="video-title">Ep.88 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_90(this)">
+
+     
+
+    <p id="video-title">Ep.89 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_91(this)">
+
+     
+
+    <p id="video-title">Ep.90 |    </p>
+
+</div>
+
+
+<!-- ............................ -->
+
+ 
+
+
+<div class="video-box bg-thumbnail " onclick="loadIframe_92(this)">
+
+     
+
+    <p id="video-title">Ep.91 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_93(this)">
+
+     
+
+    <p id="video-title">Ep.92 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_94(this)">
+
+     
+
+    <p id="video-title">Ep.93 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_95(this)">
+
+     
+
+    <p id="video-title">Ep.94 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_96(this)">
+
+     
+
+    <p id="video-title">Ep.95 |   </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_97(this)">
+
+     
+
+    <p id="video-title">Ep.96 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+ <div class="video-box bg-thumbnail " onclick="loadIframe_98(this)">
+
+     
+
+    <p id="video-title">Ep.97 |    </p>
+
+</div>
+
+ <!-- ............................. -->
+
+
+  
+
+</div>
+
+ 
+ 
+
+
+  
+
+
+
+    </main>
+
+
+    <!-- Learn JavaScript By Shradha Mam +++++++++++++++++++ -->
+
+            
+    <main class="shradha-mam hide" >
+         
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s1(this)">
+            
+             
+            <p id="video-title">Lecture 1 :  Variables & Data Types </p>
+        </div>
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s2(this)">
+            
+             
+            <p id="video-title">Lecture 2 : Operators and Conditional Statements </p>
+        </div>
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s3(this)">
+            
+             
+            <p id="video-title">Lecture 3: Loops and Strings </p>
+        </div>
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s4(this)">
+            
+             
+            <p id="video-title">Lecture 4: Arrays</p>
+        </div>
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s5(this)">
+            
+             
+            <p id="video-title">Lecture 5: Functions & Methods </p>
+        </div>
+
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s6(this)">
+            
+             
+            <p id="video-title">Lecture 6 : DOM - Document Object Model </p>
+        </div>
+
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s7(this)">
+            
+             
+            <p id="video-title">Lecture 7 : DOM (Part 2) | Document Object Model </p>
+        </div>
+
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s8(this)">
+            
+             
+            <p id="video-title">Lecture 8 : Events in JavaScript  </p>
+        </div>
+
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s9(this)">
+            
+             
+            <p id="video-title">Lecture 9 : Tic Tac Toe Game in JavaScript </p>
+        </div>
+
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s10(this)">
+            
+             
+            <p id="video-title">Lecture 10 : MiniProject - Stone, Paper & Scissors Game </p>
+        </div>
+
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s11(this)">
+            
+             
+            <p id="video-title">Lecture 11 : Classes & Objects</p>
+        </div>
+
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s12(this)">
+            
+             
+            <p id="video-title">Lecture 12 : Callbacks, Promises & Async Await </p>
+        </div>
+
+
+        <div class="video-box  bg-thumbnail "    onclick="loadIframe_s13(this)">
+            
+             
+            <p id="video-title">Last Lecture : Fetch API with Project  </p>
+        </div>
+
+
+       
+
+
+    </main> 
+
+    <button class="btn hide  home-btn"  onclick= "window.location.href = 'index.html'" > Home </button>
+    <button class="btn hide top-btn"  onclick="topScroll()"> Top </button>
+    <button class="btn  hide  bottom-btn" onclick="bottomScroll()" > Bottom </button>
+
+
+
+    <!-- Footer Section +++++++++++++++++++++++++++++ -->
+
+
+
+
+    <footer>
+        <p>    <a href="https://www.instagram.com/code_with_dm/" target="_blank"> Developed By: S. Hussain </a>   </p>
+         
+    
+        
+        
+    </footer>
+
+    
+</body>
+
+
+
+</html>
