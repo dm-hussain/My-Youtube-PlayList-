@@ -105,10 +105,10 @@ function bottomScroll() {
   console.log('bottom scroll btn was clicked');
 }
 
-// ++++++++++++++++++++++++++++
+// +++++++Anurag Sir JavaScript Episodes+++++++++++++++++++++
 
 function loadIframe(box, videoUrl, videoTitle) {
-  console.log('box clicked');
+ 
   box.classList.remove('bg-thumbnail');
 
   box.innerHTML = `
@@ -449,7 +449,7 @@ function loadIframe_42(box) {
 }
 
 function loadIframe_43(box) {
-  loadIframe(box, ' src="https://www.youtube.com/embed/ZCJtWCSZ5p8?si=XJOnKIygRLJ4ozgB  ', 'Ep.42 | forEach Array Method in JavaScript ');
+  loadIframe(box, 'https://www.youtube.com/embed/ZCJtWCSZ5p8?si=XJOnKIygRLJ4ozgB  ', 'Ep.42 | forEach Array Method in JavaScript ');
 }
 
 function loadIframe_44(box) {
